@@ -33,6 +33,9 @@ Sys.prototype.getAbbreviations = function (name, vartype) {
     return {};
 };
 
+Sys.prototype.getAbbreviation = Zotero.Cite.getAbbreviation;
+
+
 // ------------------------------------------------------------------------------------------------------------------------------
 
 
