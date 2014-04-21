@@ -17,3 +17,5 @@ To make Zotero style abbreviations in Qiqqa, I do the following in my directory,
 2.  Added the file zafq.js to provide the ZAFQ.getAbbreviation() function by wrapping abbreviation definitions and code from Zotero.
 
 This seems to work well, but has only been tested with version 61a of Qiqqa, which uses a recent version of citeproc-js (v1.0.533).  Qiqqa has announced plans for this version of citeproc-js to be included in version 62.
+
+Bottom line:  I copy zafq.js, runengine.html, and run_incite.js from src to C:\Program Files (x86)\Qiqqa\InCite\resources and I now have Zotero's automatic abbreviations in Qiqqa.
