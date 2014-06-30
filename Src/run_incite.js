@@ -33,8 +33,11 @@ Sys.prototype.getAbbreviations = function (name, vartype) {
     return {};
 };
 
-Sys.prototype.getAbbreviation = ZAFQ.getAbbreviation;
+// -----------------------------
+// Following line added to pull in ZAFQ (Zotero Abbreviations for Qiqqa) abbreviation function
+// -----------------------------
 
+Sys.prototype.getAbbreviation = ZAFQ.getAbbreviation;
 
 // ------------------------------------------------------------------------------------------------------------------------------
 
